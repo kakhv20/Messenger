@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "569380078954",
+    "firebase_url": "https://android-messenger-cd304-default-rtdb.firebaseio.com",
+    "project_id": "android-messenger-cd304",
+    "storage_bucket": "android-messenger-cd304.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569380078954:android:9034e753223864ff179113",
+        "android_client_info": {
+          "package_name": "ge.kakhvlediani.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq8kTiO-0BiJXIIJ-vIxUDhdG3rIuvnj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

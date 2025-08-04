@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="ge.kakhvlediani.messenger.ui.splash.SplashFragment"
+        android:label="Splash">
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_splash_to_main"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="ge.kakhvlediani.messenger.ui.auth.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment"/>
+        <action
+            android:id="@+id/action_login_to_main"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="ge.kakhvlediani.messenger.ui.auth.RegisterFragment"
+        android:label="Register">
+        <action
+            android:id="@+id/action_register_to_main"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="ge.kakhvlediani.messenger.ui.main.MainFragment"
+        android:label="Main">
+        <action
+            android:id="@+id/action_main_to_profile"
+            app:destination="@id/profileFragment"/>
+        <action
+            android:id="@+id/action_main_to_search"
+            app:destination="@id/searchFragment"/>
+        <action
+            android:id="@+id/action_main_to_chat"
+            app:destination="@id/chatFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ge.kakhvlediani.messenger.ui.profile.ProfileFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_profile_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="ge.kakhvlediani.messenger.ui.search.SearchFragment"
+        android:label="Search">
+        <action
+            android:id="@+id/action_search_to_chat"
+            app:destination="@id/chatFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="ge.kakhvlediani.messenger.ui.chat.ChatFragment"
+        android:label="Chat">
+        <argument
+            android:name="conversationId"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_chat_to_search"
+            app:destination="@id/searchFragment"/>
+    </fragment>
+
+</navigation>
