@@ -5,4 +5,20 @@
     <string name="sign_in">SIGN IN</string>
     <string name="enter_your_password">Enter your password</string>
     <string name="enter_your_nickname">Enter your nickname</string>
+    <string name="please_wait">PLEASE WAIT...</string>
+    <string name="nickname">Nickname</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="update">Update</string>
+    <string name="profession">Profession</string>
+    <string name="what_i_do">What I do</string>
+    <string name="search">Search</string>
+    <string name="no_users_found">No users found</string>
+    <string name="messenger">Messenger</string>
+    <string name="username">Username</string>
+    <string name="last_message">Last message</string>
+    <string name="_5_min">5 min</string>
+    <string name="message">Message</string>
+    <string name="_12_00">12:00</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
 </resources>

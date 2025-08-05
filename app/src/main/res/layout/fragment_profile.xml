@@ -17,7 +17,7 @@
         android:id="@+id/etNickname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nickname"
+        android:hint="@string/nickname"
         android:padding="16dp"
         android:background="@drawable/search_background"
         android:layout_marginTop="32dp"/>
@@ -26,7 +26,7 @@
         android:id="@+id/etProfession"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Profession"
+        android:hint="@string/profession"
         android:padding="16dp"
         android:background="@drawable/search_background"
         android:layout_marginTop="16dp"/>
@@ -35,7 +35,7 @@
         android:id="@+id/btnUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Update"
+        android:text="@string/update"
         android:backgroundTint="@color/blue_primary"
         android:layout_marginTop="24dp"/>
 
@@ -43,7 +43,7 @@
         android:id="@+id/btnSignOut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SIGN OUT"
+        android:text="@string/sign_out"
         android:backgroundTint="@android:color/transparent"
         android:textColor="@color/gray_text"
         android:layout_marginTop="16dp"/>

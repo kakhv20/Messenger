@@ -55,8 +55,8 @@
             android:layout_height="48dp"
             android:src="@drawable/ic_send"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:tint="@color/blue_primary"
-            android:padding="8dp"/>
+            android:padding="8dp"
+            app:tint="@color/blue_primary" />
 
     </LinearLayout>
 

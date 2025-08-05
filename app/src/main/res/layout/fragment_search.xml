@@ -14,7 +14,7 @@
             android:id="@+id/etSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Search"
+            android:hint="@string/search"
             android:background="@drawable/search_background"
             android:padding="12dp"
             android:drawableStart="@drawable/ic_search"
@@ -32,7 +32,7 @@
         android:id="@+id/tvNoResults"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="No users found"
+        android:text="@string/no_users_found"
         android:gravity="center"
         android:visibility="gone"/>
 
